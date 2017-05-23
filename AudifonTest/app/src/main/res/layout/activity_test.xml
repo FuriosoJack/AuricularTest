@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.furiosojack.audifontest.Activitys.Test1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".20"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/bei">
+
+                <TextView
+                    android:text="@string/titulotest1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:textSize="@dimen/txtgrande"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nprueba1"
+                    android:textSize="@dimen/txtpequeño"
+                    android:id="@+id/txt_test1_nprueba"
+                    android:textStyle="italic"
+                    />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".40"
+            android:orientation="vertical"
+            >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".25">
+                        <TextView
+                            android:text="@string/descipciontest1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/txtmedio"
+                            android:layout_marginTop="@dimen/moderado"
+                            android:id="@+id/txt_tezt1"
+                            android:layout_marginLeft="@dimen/moderado"
+                            android:layout_marginRight="@dimen/moderado"
+                            android:textStyle=""
+
+                            />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight=".65">
+
+
+                    <ImageView
+                        android:layout_width="@dimen/corto"
+                        android:layout_height="@dimen/corto"
+                       android:layout_alignRight="@+id/imageView"
+                        android:layout_marginRight="@dimen/largo1"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/animacionizquierda"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/largo"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/auricularestest"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/imageView" />
+                    <ImageView
+                        android:layout_width="@dimen/corto"
+                        android:layout_height="@dimen/corto"
+                        android:layout_marginLeft="@dimen/largo1"
+                        android:layout_centerVertical="true"
+                        android:layout_alignLeft="@+id/imageView"
+                        android:id="@+id/animacionderecha"/>
+
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".10"
+                    android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/auricularL"
+                            android:textSize="@dimen/txtmedio"
+                            android:layout_gravity="center_horizontal"
+                            android:textStyle="italic"
+                            android:id="@+id/txtauricular"/>
+                </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".15"
+            android:gravity="center">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btntest"
+                    android:id="@+id/btn_test1_comenzar"
+                    android:background="@drawable/temabotonespositivo"
+                    android:theme="@style/botones"/>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

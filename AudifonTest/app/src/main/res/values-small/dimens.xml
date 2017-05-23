@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bloqueado_imgatexto">100dp</dimen>
+    <dimen name="txttitulo">100sp</dimen>
+    <dimen name="txtpequeño">30sp</dimen>
+    <dimen name="txtmedio">3sp</dimen>
+    <dimen name="txtmedio1">0sp</dimen>
+    <dimen name="txtmedio2">5sp</dimen>
+    <dimen name="txtgrande">0sp</dimen>
+
+    <dimen name="pequeño">5dp</dimen>
+    <dimen name="pequeño1">1dp</dimen>
+    <dimen name="moderado">3dp</dimen>
+    <dimen name="moderado1">5dp</dimen>
+    <dimen name="moderado2">0dp</dimen>
+    <dimen name="moderado3">5dp</dimen>
+    <dimen name="largo">30sp</dimen>
+    <dimen name="largo1">10dp</dimen>
+    <dimen name="largo2">20dp</dimen>
+    <dimen name="largo3">30dp</dimen>
+    <dimen name="largo4">40dp</dimen>
+    <dimen name="largo5">50dp</dimen>
+    <dimen name="xlargo">50dp</dimen>
+
+    <dimen name="corto1">70dp</dimen>
+    <dimen name="corto2">80dp</dimen>
+    <dimen name="corto3">90dp</dimen>
+    <dimen name="corto4">10dp</dimen>
+
+
+</resources>

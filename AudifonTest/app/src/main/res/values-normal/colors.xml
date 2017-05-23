@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#27a0aa</color>
+    <color name="colorPrimaryDark">#1f8088</color>
+    <color name="colorAccent">#dbb73b</color>
+    <color name="despistado">#ef3e3e</color>
+    <color name="rosasuabe">#a85880</color>
+    <color name="despitado2">#65d34c</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="naraja">#f9e109</color>
+    <color name="cuero">#b88000</color>
+    <color name="negro">#000000</color>
+    <color name="gris">#ff585858</color>
+    <color name="grissuabe">#BDBDBD</color>
+    <color name="bei">#c8c090</color>
+    <color name="moradopastel">#8890b0</color>
+
+</resources>

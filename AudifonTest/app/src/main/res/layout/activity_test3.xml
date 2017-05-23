@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.furiosojack.audifontest.Activitys.Test3"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".20"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/bei">
+
+        <TextView
+            android:text="@string/txttitulotext3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="@dimen/txtgrande"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".70"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".20"
+            android:padding="@dimen/pequeño"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textobajostext"
+                android:textSize="@dimen/txtmedio"
+                android:layout_alignParentTop="true"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textobajostext2"
+                android:textStyle="italic"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".30"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="@dimen/corto4"
+                    android:layout_height="@dimen/corto5"
+                    android:id="@+id/animacionDelizar"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txtmedio1"
+                    android:text="@string/EQorientacionL"
+
+                    />
+                <SeekBar
+                    android:id="@+id/test3Volumen"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:progress="50"
+                    android:progressDrawable="@drawable/progress_drawable"
+                    android:secondaryProgress="0"
+                    android:layout_weight=".50"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/EQorientacionD"
+                    android:textSize="@dimen/txtmedio1"
+
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".20"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mejoren"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/temabotonesop2"
+            android:id="@+id/btntest1_izquierdo"
+            android:text="@string/finalizoAuIz"
+            android:layout_marginLeft="@dimen/pequeño"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/temabotonesop1"
+            android:id="@+id/btntest1_derecho"
+            android:text="@string/finalizoAuDer"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/pequeño"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

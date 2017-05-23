@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.furiosojack.audifontest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activitys.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activitys.Calibracion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activitys.Test1"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name=".Logica.ListenerReceiber">
+            <intent-filter>
+                <action android:name="android.intent.action.HEADSET_PLUG" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".Activitys.Finalizar"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activitys.Test3" />
+        <activity android:name=".Activitys.bloqueo"
+            android:theme="@style/Bloqueo"></activity>
+    </application>
+
+</manifest>

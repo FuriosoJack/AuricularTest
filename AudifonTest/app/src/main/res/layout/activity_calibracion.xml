@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_calibracion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.furiosojack.audifontest.Activitys.Calibracion">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".20"
+            android:gravity="center"
+            android:layout_marginBottom="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/ponatencion"
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".20"
+            android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/calibraciontxtProcesos"
+                            android:textSize="@dimen/txtgrande"
+                            />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="@dimen/moderado"
+                            android:layout_marginRight="@dimen/moderado"
+                            android:background="@color/gris"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginLeft="@dimen/pequeño"
+                            >
+
+                                <ImageView
+                                    android:layout_width="@dimen/moderado"
+                                    android:layout_height="@dimen/moderado"
+                                    android:src="@drawable/reprovado"
+                                    android:id="@+id/imgcalibracionpaso1"
+                                    />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/calibracionItem1"
+                                    android:id="@+id/calibracion_paso1"
+                                    android:textSize="@dimen/txtmedio"
+                                    />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginLeft="@dimen/pequeño"
+                            android:layout_marginTop="@dimen/pequeño"
+                            >
+
+                                <ImageView
+                                    android:layout_width="@dimen/moderado"
+                                    android:layout_height="@dimen/moderado"
+                                    android:src="@drawable/reprovado"
+                                    android:id="@+id/imgcalibracionpaso2"
+                                    />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/calibracionItem2cargando"
+                                    android:id="@+id/calibracion_paso2"
+                                    android:textSize="@dimen/txtmedio"
+                                    android:gravity="center"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/pequeño"
+                            >
+                                <ImageView
+                                    android:layout_width="@dimen/moderado"
+                                    android:layout_height="@dimen/moderado"
+                                    android:src="@android:drawable/ic_menu_info_details"
+                                    android:id="@+id/infocalibracion"
+
+                                    />
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="@string/calibracionItem3"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/txtCalibracion"
+                                    android:textSize="@dimen/txtmedio"
+                                    android:textStyle="bold"
+                                    />
+
+                        </LinearLayout>
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".10">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".50"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                        <Button
+                            android:text="@string/btnok"
+                            android:layout_width="@dimen/largo"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/background_light"
+                            android:background="@color/despistado"
+                            android:onClick="todook"
+                            android:textSize="@dimen/moderado"
+                            />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".50"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                        <Button
+                            android:text="@string/btnok"
+                            android:layout_width="@dimen/largo"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/background_light"
+                            android:background="@color/despitado2"
+                            android:textSize="@dimen/moderado"/>
+
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>

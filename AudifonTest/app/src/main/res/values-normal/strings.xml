@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">AuricularTest</string>
+    <string name="txtBienvenido">BIENVENIDO</string>
+    <string name="msgbienvenida">Para Mi FurisosoJack es un gusto tenerte Aca.</string>
+    <string name="descripcionimgBi">Felicidad de tener el usuario en la aplicacion</string>
+    <string name="inicarDiag">Iniciar</string>
+    <string name="btnok">OK</string>
+
+    <string name="txtDesconectado">AudifonTet no puede trabajar si no tienes conectados los auriculares</string>
+    <string name="desconectadotxtbtn">Salir</string>
+
+    <string name="calibracionItem1">1: Poner el Volumen al maximo.</string>
+    <string name="calibracionItem2cargando">2: Cargando Sonido.... Espera</string>
+    <string name="calibracionItem3">3.Oprime el boton rojo cuando escuches el sonido.</string>
+    <string name="calibraciontxtProcesos">Procesos</string>
+
+
+    <string name="txtTest2">Test de volumen maximo, cuando comiences este test, oprime el voton cuando dejes de escuchar el sonido</string>
+
+    <string name="descipciontest1">En este test se identificara el volumen minimo de cada auricular.\nPulsa en Comenzar cuando quieras.</string>
+    <string name="txtTest1">Oprime cuando dejes de escuchar el sonido</string>
+    <string name="txtTest1_1">Oprime el boton cuando escuches el sonido.</string>
+    <string name="titulotest1">Test de Volumen</string>
+    <string name="txttitulotext3">Test de Bajos</string>
+    <string name="textobajostext">Dependiendo del auricular en el que se escuche mejor y/o mas fuerte oprime un boton.</string>
+    <string name="textobajostext2">Ajusta el volumen para que puedas indentificar en cual auricular se escucha mejor.</string>
+
+    <string name="nprueba1">Prueba 1</string>
+    <string name="nprueba2">Prueba 2</string>
+    <string name="btntest">Comenzar>></string>
+    <string name="btntest_2">Lo Escucho</string>
+    <string name="EQorientacionD">Der</string>
+    <string name="EQorientacionL">Izq</string>
+    <string name="mejoren">Mejor En</string>
+
+    <string name="finalizoAuDer">Derecho</string>
+    <string name="finalizoAuIz">Izquierdo</string>
+
+   <string name="auricularL">Auricular Izquierdo</string>
+    <string name="auricularR">Auricular Derecho</string>
+
+    <string name="finalizadoterminar">Salir</string>
+    <string name="finalizadomensaje">Aca va el mensaej </string>
+
+    <string name="finalizadonodaño">Ningun Auricular se encuentra en daño</string>
+    <string name="finalizodaño3izquierdo">El Auricular Izquierdo tiene un daño leve</string>
+
+    <string name="finalizodaño3derecho">El Auricular Derecho tiene un daño leve</string>
+    <string name="finalpruebas">Pruebas Finalizadas</string>
+    <string name="expliaciondaño">Los auriculares se suelen dañar por golpes o por el mal uso.\nEl daño mas frecuente es que se escuche mas bajo de un auricular que del otro.</string>
+</resources>
